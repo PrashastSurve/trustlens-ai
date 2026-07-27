@@ -328,7 +328,7 @@ function LiveAnalysis() {
               atMs: at,
               signal: k,
               score: smoothed[k],
-              severity: smoothed[k] < 40 ? "critical" : "warning",
+              severity: (smoothed[k] < 40 ? "critical" : "warning") as Alert["severity"],
               message: `${def.label} dropped to ${smoothed[k]}`,
             },
             ...prev,
