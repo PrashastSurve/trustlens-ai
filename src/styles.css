@@ -68,6 +68,11 @@
   --animate-shimmer: shimmer 3s linear infinite;
   --animate-pulse-ring: pulse-ring 2.4s ease-out infinite;
   --animate-scan: scan 3.2s ease-in-out infinite;
+
+  --shadow-glow:
+    0 0 0 1px color-mix(in oklab, var(--primary) 22%, transparent),
+    0 18px 60px -18px color-mix(in oklab, var(--primary) 55%, transparent);
+  --shadow-elevated: 0 30px 80px -30px oklch(0 0 0 / 0.85);
 }
 
 :root {
