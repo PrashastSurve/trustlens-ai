@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /dashboard
+Disallow: /live
+Disallow: /sessions
+Disallow: /reports
+Disallow: /api-keys
+Disallow: /settings
+Disallow: /reset-password
